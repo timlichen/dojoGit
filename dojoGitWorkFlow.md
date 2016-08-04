@@ -36,5 +36,6 @@ hiya, this is a base-line guide for setting up, managing, and working within the
   git add . && git commit -m 'commit message here'
   #3. Updating your remote repo
   git push origin master
-  #4. At the end of the day, submitting a pull request so that your code gets incorporated into the master after review.
+
+  #4. At the end of the day, submit a pull request so that your code gets incorporated into the base master.
   ```
