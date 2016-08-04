@@ -11,11 +11,14 @@ hiya, this is a base-line guide for setting up, managing, and working within the
 
 3. Let's begin working with this repo, there are a few sub-steps that will help up stay up-to-date with the base-master (Dan's master repo).
 
-    - ```bash
+  i.
+    ```bash
     git clone [insert your forked .git address here]
     ```
-    - Navigate into the cloned directory and configure a remote for your fork by creating an remote <i>upstream</i> using the base master .git link (i.e. Dan's master repo).
-    [GO HERE TO READ MORE ABOUT CONFIGURING GIT REMOTES.](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+  ii. Navigate into the cloned directory and configure a remote for your fork by creating an remote <i>upstream</i> using the base master .git link (i.e. Dan's master repo).
+
+  [GO HERE TO READ MORE ABOUT CONFIGURING GIT REMOTES.](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+
     - When you are done with the above, you should be able to run the following command and update your local git repo with the data that is present in the base master repo (Dan's repo).
     ```bash
     git pull upstream master
@@ -24,7 +27,8 @@ hiya, this is a base-line guide for setting up, managing, and working within the
     - Once your files are settled, git add, commit, and push to your remote forked repo.
     - Finally, find and click on the option to submit a pull requst, verify that all your information is up-to-date and accurate and send it.
 
-  4. Maintenance! Your daily routine will now include the following steps.
+
+  iii. Maintenance! Your daily routine will now include the following steps.
   ```bash
   # 1. Updating your local repo with the base master
   git pull upstream
